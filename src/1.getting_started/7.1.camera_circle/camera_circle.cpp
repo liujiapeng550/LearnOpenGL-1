@@ -123,6 +123,26 @@ int main()
 
     glBindVertexArray(VAO);
 
+
+
+	int sum0Toi(int i){
+		int sum=0;
+		for(int index=0;index<=i;index++) {
+			sum=sum+index;
+		}
+	}
+
+	int sum0To98(){
+		int sum=0;
+		for(int index=0;index=<98;index++) {
+			sum=sum+index;
+		}
+	}
+
+
+	int zum=sum0Toi(1000);
+	
+
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 

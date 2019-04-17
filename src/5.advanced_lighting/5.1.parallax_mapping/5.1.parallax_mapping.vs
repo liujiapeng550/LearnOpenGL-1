@@ -1,4 +1,4 @@
-#version 330 core
+ #version 330 core
 layout (location = 0) in vec3 aPos;
 layout (location = 1) in vec3 aNormal;
 layout (location = 2) in vec2 aTexCoords;
@@ -11,6 +11,9 @@ out VS_OUT {
     vec3 TangentLightPos;
     vec3 TangentViewPos;
     vec3 TangentFragPos;
+	vec3 T;
+	vec3 B;
+	vec3 N;
 } vs_out;
 
 uniform mat4 projection;
@@ -25,10 +28,10 @@ void main()
     vs_out.FragPos = vec3(model * vec4(aPos, 1.0));   
     vs_out.TexCoords = aTexCoords;   
     
-    vec3 T = normalize(mat3(model) * aTangent);
-    vec3 B = normalize(mat3(model) * aBitangent);
-    vec3 N = normalize(mat3(model) * aNormal);
-    mat3 TBN = transpose(mat3(T, B, N));
+    vs_out.T = normalize(mat3(model) * aTangent);
+    vs_out.B = normalize(mat3(model) * aBitangent);
+    vs_out.N = normalize(mat3(model) * aNormal);
+   mat3 TBN= transpose(mat3(vs_out.T, vs_out.B, vs_out.N));
 
     vs_out.TangentLightPos = TBN * lightPos;
     vs_out.TangentViewPos  = TBN * viewPos;

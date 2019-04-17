@@ -83,9 +83,9 @@ int main()
 
     // load textures
     // -------------
-    unsigned int diffuseMap = loadTexture(FileSystem::getPath("resources/textures/bricks2.jpg").c_str());
-    unsigned int normalMap  = loadTexture(FileSystem::getPath("resources/textures/bricks2_normal.jpg").c_str());
-    unsigned int heightMap  = loadTexture(FileSystem::getPath("resources/textures/bricks2_disp.jpg").c_str());
+    unsigned int diffuseMap = loadTexture(FileSystem::getPath("resources/textures/base.png").c_str());
+    unsigned int normalMap  = loadTexture(FileSystem::getPath("resources/textures/normal.png").c_str());
+    unsigned int heightMap  = loadTexture(FileSystem::getPath("resources/textures/height.jpg").c_str());
    /* unsigned int diffuseMap = loadTexture(FileSystem::getPath("resources/textures/toy_box_diffuse.png").c_str());
     unsigned int normalMap = loadTexture(FileSystem::getPath("resources/textures/toy_box_normal.png").c_str());
     unsigned int heightMap = loadTexture(FileSystem::getPath("resources/textures/toy_box_disp.png").c_str());*/
@@ -133,7 +133,7 @@ int main()
         shader.setVec3("viewPos", camera.Position);
         shader.setVec3("lightPos", lightPos);
         shader.setFloat("heightScale", heightScale); // adjust with Q and E keys
-        std::cout << heightScale << std::endl;
+       // std::cout << heightScale << std::endl;
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, diffuseMap);
         glActiveTexture(GL_TEXTURE1);

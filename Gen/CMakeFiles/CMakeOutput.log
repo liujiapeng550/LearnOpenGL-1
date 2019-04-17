@@ -1,0 +1,383 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 12.0.40629.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/2/16 16:12:32��
+�ڵ� 1 �ϵ���Ŀ��D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.96
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/demo/LearnOpenGL-1/Gen/CMakeFiles/3.12.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 12.0.40629.0
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2019/2/16 16:12:33��
+�ڵ� 1 �ϵ���Ŀ��D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdCXX.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdCXX.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdCXX.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CompilerIdCXX\CompilerIdCXX.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:01.01
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/demo/LearnOpenGL-1/Gen/CMakeFiles/3.12.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_dcbcc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/2/16 16:12:34。
+节点 1 上的项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_dcbcc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_dcbcc.dir\Debug\”。
+  正在创建目录“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_dcbcc.dir\Debug\cmTC_dcbcc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_dcbcc.dir\Debug\cmTC_dcbcc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dcbcc.dir\Debug\\" /Fd"cmTC_dcbcc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dcbcc.dir\Debug\\" /Fd"cmTC_dcbcc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_dcbcc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_dcbcc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_dcbcc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_dcbcc.dir\Debug\testCCompiler.obj
+  cmTC_dcbcc.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_dcbcc.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_dcbcc.dir\Debug\cmTC_dcbcc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_dcbcc.dir\Debug\cmTC_dcbcc.tlog\cmTC_dcbcc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_dcbcc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.99
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_94ffe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/2/16 16:12:36。
+节点 1 上的项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_94ffe.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_94ffe.dir\Debug\”。
+  正在创建目录“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_94ffe.dir\Debug\cmTC_94ffe.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_94ffe.dir\Debug\cmTC_94ffe.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_94ffe.dir\Debug\\" /Fd"cmTC_94ffe.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_94ffe.dir\Debug\\" /Fd"cmTC_94ffe.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_94ffe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_94ffe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_94ffe.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_94ffe.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_94ffe.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_94ffe.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_94ffe.dir\Debug\cmTC_94ffe.tlog\unsuccessfulbuild”。
+  正在对“cmTC_94ffe.dir\Debug\cmTC_94ffe.tlog\cmTC_94ffe.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_94ffe.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.02
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_79bf2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/2/16 16:12:37。
+节点 1 上的项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_79bf2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_79bf2.dir\Debug\”。
+  正在创建目录“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_79bf2.dir\Debug\cmTC_79bf2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_79bf2.dir\Debug\cmTC_79bf2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_79bf2.dir\Debug\\" /Fd"cmTC_79bf2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_79bf2.dir\Debug\\" /Fd"cmTC_79bf2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.c"
+  
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_79bf2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_79bf2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_79bf2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_79bf2.dir\Debug\feature_tests.obj
+  cmTC_79bf2.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_79bf2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_79bf2.dir\Debug\cmTC_79bf2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_79bf2.dir\Debug\cmTC_79bf2.tlog\cmTC_79bf2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_79bf2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.06
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_cc9a1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/2/16 16:12:39。
+节点 1 上的项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_cc9a1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cc9a1.dir\Debug\”。
+  正在创建目录“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cc9a1.dir\Debug\cmTC_cc9a1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cc9a1.dir\Debug\cmTC_cc9a1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_cc9a1.dir\Debug\\" /Fd"cmTC_cc9a1.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_cc9a1.dir\Debug\\" /Fd"cmTC_cc9a1.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_cc9a1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_cc9a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_cc9a1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cc9a1.dir\Debug\testCXXCompiler.obj
+  cmTC_cc9a1.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_cc9a1.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_cc9a1.dir\Debug\cmTC_cc9a1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cc9a1.dir\Debug\cmTC_cc9a1.tlog\cmTC_cc9a1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_cc9a1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.04
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e9168.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/2/16 16:12:40。
+节点 1 上的项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_e9168.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e9168.dir\Debug\”。
+  正在创建目录“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e9168.dir\Debug\cmTC_e9168.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e9168.dir\Debug\cmTC_e9168.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_e9168.dir\Debug\\" /Fd"cmTC_e9168.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_e9168.dir\Debug\\" /Fd"cmTC_e9168.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_e9168.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_e9168.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_e9168.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e9168.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_e9168.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_e9168.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e9168.dir\Debug\cmTC_e9168.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e9168.dir\Debug\cmTC_e9168.tlog\cmTC_e9168.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_e9168.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.13
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a5a83.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2019/2/16 16:12:42。
+节点 1 上的项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_a5a83.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a5a83.dir\Debug\”。
+  正在创建目录“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a5a83.dir\Debug\cmTC_a5a83.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a5a83.dir\Debug\cmTC_a5a83.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_a5a83.dir\Debug\\" /Fd"cmTC_a5a83.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_a5a83.dir\Debug\\" /Fd"cmTC_a5a83.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_a5a83.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_a5a83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/CMakeFiles/CMakeTmp/Debug/cmTC_a5a83.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a5a83.dir\Debug\feature_tests.obj
+  cmTC_a5a83.vcxproj -> D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\Debug\cmTC_a5a83.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a5a83.dir\Debug\cmTC_a5a83.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a5a83.dir\Debug\cmTC_a5a83.tlog\cmTC_a5a83.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\demo\LearnOpenGL-1\Gen\CMakeFiles\CMakeTmp\cmTC_a5a83.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.12
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

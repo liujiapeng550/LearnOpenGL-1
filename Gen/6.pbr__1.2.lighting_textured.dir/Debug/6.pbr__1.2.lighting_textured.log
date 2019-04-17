@@ -1,0 +1,45 @@
+﻿生成启动时间为 2019/2/26 23:16:46。
+     1>项目“D:\demo\LearnOpenGL-1\Gen\6.pbr__1.2.lighting_textured.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/demo/LearnOpenGL-1/src/6.pbr/1.2.lighting_textured/1.2.pbr.fs D:/demo/LearnOpenGL-1/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/demo/LearnOpenGL-1/src/6.pbr/1.2.lighting_textured/1.2.pbr.vs D:/demo/LearnOpenGL-1/bin/6.pbr/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\6.pbr__1.2.lighting_textured.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:/demo/LearnOpenGL-1/lib" /LIBPATH:"D:/demo/LearnOpenGL-1/lib/Debug" glfw3.lib opengl32.lib assimp.lib Debug\STB_IMAGE.lib Debug\GLAD.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/bin/6.pbr/Debug/6.pbr__1.2.lighting_textured.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/Debug/6.pbr__1.2.lighting_textured.lib" /MACHINE:X86 /SAFESEH  /machine:X86 6.pbr__1.2.lighting_textured.dir\Debug\lighting_textured.obj
+     1>glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(context.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(init.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(input.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(monitor.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(vulkan.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(window.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(win32_init.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(win32_time.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(win32_window.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(egl_context.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         6.pbr__1.2.lighting_textured.vcxproj -> D:\demo\LearnOpenGL-1\bin\6.pbr\Debug\6.pbr__1.2.lighting_textured.exe
+     1>已完成生成项目“D:\demo\LearnOpenGL-1\Gen\6.pbr__1.2.lighting_textured.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.17

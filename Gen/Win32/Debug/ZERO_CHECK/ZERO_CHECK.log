@@ -1,0 +1,10 @@
+﻿生成启动时间为 2019/3/12 11:46:52。
+     1>项目“D:\demo\LearnOpenGL-1\Gen\ZERO_CHECK.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/demo/LearnOpenGL-1/Gen/CMakeFiles/generate.stamp is up-to-date.
+     1>已完成生成项目“D:\demo\LearnOpenGL-1\Gen\ZERO_CHECK.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.37

@@ -1,0 +1,67 @@
+﻿生成启动时间为 2019/2/16 17:20:12。
+     1>项目“D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__9.2.geometry_shader_exploding.vcxproj”在节点 6 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/demo/LearnOpenGL-1/src/4.advanced_opengl/9.2.geometry_shader_exploding/9.2.geometry_shader.fs D:/demo/LearnOpenGL-1/bin/4.advanced_opengl/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/demo/LearnOpenGL-1/src/4.advanced_opengl/9.2.geometry_shader_exploding/9.2.geometry_shader.gs D:/demo/LearnOpenGL-1/bin/4.advanced_opengl/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/demo/LearnOpenGL-1/src/4.advanced_opengl/9.2.geometry_shader_exploding/9.2.geometry_shader.vs D:/demo/LearnOpenGL-1/bin/4.advanced_opengl/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule D:/demo/LearnOpenGL-1/CMakeLists.txt
+         CMake does not need to re-run because D:/demo/LearnOpenGL-1/Gen/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\demo\LearnOpenGL-1\Gen\configuration" /I"D:\demo\LearnOpenGL-1\includes" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"4.advanced_opengl__9.2.geometry_shader_exploding.dir\Debug\\" /Fd"4.advanced_opengl__9.2.geometry_shader_exploding.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /EHsc";"-std=c++11 "D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH;”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH-”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHt”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHd”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH=”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+         geometry_shader_exploding.cpp
+     1>D:\demo\LearnOpenGL-1\includes\learnopengl/filesystem.h(23): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : 参见“getenv”的声明
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(27): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(91): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(114): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(161): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(162): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(166): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(167): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(169): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(170): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\4.advanced_opengl\9.2.geometry_shader_exploding\geometry_shader_exploding.cpp(179): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\demo\LearnOpenGL-1\bin\4.advanced_opengl\Debug\4.advanced_opengl__9.2.geometry_shader_exploding.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:/demo/LearnOpenGL-1/lib" /LIBPATH:"D:/demo/LearnOpenGL-1/lib/Debug" glfw3.lib opengl32.lib assimp.lib Debug\STB_IMAGE.lib Debug\GLAD.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/demo/LearnOpenGL-1/bin/4.advanced_opengl/Debug/4.advanced_opengl__9.2.geometry_shader_exploding.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/demo/LearnOpenGL-1/Gen/Debug/4.advanced_opengl__9.2.geometry_shader_exploding.lib" /MACHINE:X86 /SAFESEH  /machine:X86 4.advanced_opengl__9.2.geometry_shader_exploding.dir\Debug\geometry_shader_exploding.obj
+         4.advanced_opengl__9.2.geometry_shader_exploding.vcxproj -> D:\demo\LearnOpenGL-1\bin\4.advanced_opengl\Debug\4.advanced_opengl__9.2.geometry_shader_exploding.exe
+     1>已完成生成项目“D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__9.2.geometry_shader_exploding.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.77

@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EE7D7EED-CE02-3B2A-A41F-D6EF5B9251E2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\demo\LearnOpenGL-1\Gen\configuration;D:\demo\LearnOpenGL-1\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\demo\LearnOpenGL-1\Gen\configuration;D:\demo\LearnOpenGL-1\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\demo\LearnOpenGL-1\Gen\configuration;D:\demo\LearnOpenGL-1\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\demo\LearnOpenGL-1\Gen\configuration;D:\demo\LearnOpenGL-1\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\demo\LearnOpenGL-1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/demo/LearnOpenGL-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/demo/LearnOpenGL-1 -BD:/demo/LearnOpenGL-1/Gen --check-stamp-file D:/demo/LearnOpenGL-1/Gen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/demo/LearnOpenGL-1/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\demo\LearnOpenGL-1\CMakeLists.txt;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.c;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.cxx;D:\demo\LearnOpenGL-1\cmake\modules\FindASSIMP.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLFW3.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLM.cmake;D:\demo\LearnOpenGL-1\configuration\root_directory.h.in;D:\demo\LearnOpenGL-1\configuration\visualstudio.vcxproj.user.in;D:\demo\LearnOpenGL-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\demo\LearnOpenGL-1\Gen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/demo/LearnOpenGL-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/demo/LearnOpenGL-1 -BD:/demo/LearnOpenGL-1/Gen --check-stamp-file D:/demo/LearnOpenGL-1/Gen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/demo/LearnOpenGL-1/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\demo\LearnOpenGL-1\CMakeLists.txt;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.c;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.cxx;D:\demo\LearnOpenGL-1\cmake\modules\FindASSIMP.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLFW3.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLM.cmake;D:\demo\LearnOpenGL-1\configuration\root_directory.h.in;D:\demo\LearnOpenGL-1\configuration\visualstudio.vcxproj.user.in;D:\demo\LearnOpenGL-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\demo\LearnOpenGL-1\Gen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/demo/LearnOpenGL-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/demo/LearnOpenGL-1 -BD:/demo/LearnOpenGL-1/Gen --check-stamp-file D:/demo/LearnOpenGL-1/Gen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/demo/LearnOpenGL-1/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\demo\LearnOpenGL-1\CMakeLists.txt;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.c;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.cxx;D:\demo\LearnOpenGL-1\cmake\modules\FindASSIMP.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLFW3.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLM.cmake;D:\demo\LearnOpenGL-1\configuration\root_directory.h.in;D:\demo\LearnOpenGL-1\configuration\visualstudio.vcxproj.user.in;D:\demo\LearnOpenGL-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\demo\LearnOpenGL-1\Gen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/demo/LearnOpenGL-1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/demo/LearnOpenGL-1 -BD:/demo/LearnOpenGL-1/Gen --check-stamp-file D:/demo/LearnOpenGL-1/Gen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/demo/LearnOpenGL-1/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;D:\demo\LearnOpenGL-1\CMakeLists.txt;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeCXXCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeRCCompiler.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\3.12.4\CMakeSystem.cmake;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.c;D:\demo\LearnOpenGL-1\Gen\CMakeFiles\feature_tests.cxx;D:\demo\LearnOpenGL-1\cmake\modules\FindASSIMP.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLFW3.cmake;D:\demo\LearnOpenGL-1\cmake\modules\FindGLM.cmake;D:\demo\LearnOpenGL-1\configuration\root_directory.h.in;D:\demo\LearnOpenGL-1\configuration\visualstudio.vcxproj.user.in;D:\demo\LearnOpenGL-1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\demo\LearnOpenGL-1\Gen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\ZERO_CHECK.vcxproj">
+      <Project>{8D56BF9F-04A2-38FD-AA89-3218E072FB00}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__1.1.hello_window.vcxproj">
+      <Project>{1F4A60A0-F0A2-39ED-BB34-05D673ED091A}</Project>
+      <Name>1.getting_started__1.1.hello_window</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__1.2.hello_window_clear.vcxproj">
+      <Project>{F2DBDD4A-DD70-3A7F-8C27-F3AEA35BA96B}</Project>
+      <Name>1.getting_started__1.2.hello_window_clear</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__2.1.hello_triangle.vcxproj">
+      <Project>{98AC8A14-C11F-3992-8C03-4A21C5002B5C}</Project>
+      <Name>1.getting_started__2.1.hello_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__2.2.hello_triangle_indexed.vcxproj">
+      <Project>{F1C734ED-EA49-3E6B-8BE7-2BFFF2612F05}</Project>
+      <Name>1.getting_started__2.2.hello_triangle_indexed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__2.3.hello_triangle_exercise1.vcxproj">
+      <Project>{3998B5D8-06DC-3652-9AAA-233718534218}</Project>
+      <Name>1.getting_started__2.3.hello_triangle_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__2.4.hello_triangle_exercise2.vcxproj">
+      <Project>{A79D0BA5-28FC-343E-AA27-67B97770B6D0}</Project>
+      <Name>1.getting_started__2.4.hello_triangle_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__2.5.hello_triangle_exercise3.vcxproj">
+      <Project>{2C26952E-2B0C-37B7-B3F9-FE2494A3917E}</Project>
+      <Name>1.getting_started__2.5.hello_triangle_exercise3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__3.1.shaders_uniform.vcxproj">
+      <Project>{B3143C56-373E-382A-8128-B217C0A7A351}</Project>
+      <Name>1.getting_started__3.1.shaders_uniform</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__3.2.shaders_interpolation.vcxproj">
+      <Project>{E1A45AA7-39F1-3973-861C-34B8FC2151DB}</Project>
+      <Name>1.getting_started__3.2.shaders_interpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__3.3.shaders_class.vcxproj">
+      <Project>{EB8A46FD-5E18-31DA-BE17-098323F87A9F}</Project>
+      <Name>1.getting_started__3.3.shaders_class</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__4.1.textures.vcxproj">
+      <Project>{EE3E2F31-14B8-35E2-A75A-F7857D4189B9}</Project>
+      <Name>1.getting_started__4.1.textures</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__4.2.textures_combined.vcxproj">
+      <Project>{11973552-BC8A-3566-9CA5-4400E3532DEE}</Project>
+      <Name>1.getting_started__4.2.textures_combined</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__4.3.textures_exercise2.vcxproj">
+      <Project>{5D328E06-3DCE-309D-B906-51A4F3DB26FD}</Project>
+      <Name>1.getting_started__4.3.textures_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__4.4.textures_exercise3.vcxproj">
+      <Project>{41C4B1E1-E296-322C-B65F-5D58776E3203}</Project>
+      <Name>1.getting_started__4.4.textures_exercise3</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__4.5.textures_exercise4.vcxproj">
+      <Project>{0FF70677-4768-304F-83F5-3C2BAB9421A4}</Project>
+      <Name>1.getting_started__4.5.textures_exercise4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__5.1.transformations.vcxproj">
+      <Project>{41CC3F5A-78D4-3407-9C16-27E460294CF9}</Project>
+      <Name>1.getting_started__5.1.transformations</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__5.2.transformations_exercise2.vcxproj">
+      <Project>{AE84173D-B016-32D1-8D12-0C22EC9BFC49}</Project>
+      <Name>1.getting_started__5.2.transformations_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__6.1.coordinate_systems.vcxproj">
+      <Project>{33DE0D77-E093-39C9-98CF-D5C2DC6148C9}</Project>
+      <Name>1.getting_started__6.1.coordinate_systems</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__6.2.coordinate_systems_depth.vcxproj">
+      <Project>{A4BEBFAE-0D35-3DDC-9D31-8666DD3FE338}</Project>
+      <Name>1.getting_started__6.2.coordinate_systems_depth</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__6.3.coordinate_systems_multiple.vcxproj">
+      <Project>{258535D5-C5E9-3592-BA77-9CD1C102CBBC}</Project>
+      <Name>1.getting_started__6.3.coordinate_systems_multiple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__7.1.camera_circle.vcxproj">
+      <Project>{4E45F484-438F-3A02-832C-82A92BEA23A0}</Project>
+      <Name>1.getting_started__7.1.camera_circle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__7.2.camera_keyboard_dt.vcxproj">
+      <Project>{1E929FDC-C0AC-3879-BD80-050D3810E7DA}</Project>
+      <Name>1.getting_started__7.2.camera_keyboard_dt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__7.3.camera_mouse_zoom.vcxproj">
+      <Project>{DB917D32-125D-3693-AC4B-4687E6A82038}</Project>
+      <Name>1.getting_started__7.3.camera_mouse_zoom</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\1.getting_started__7.4.camera_class.vcxproj">
+      <Project>{EDB4CEF7-9F6A-32E2-95E5-B3C2D50DD39E}</Project>
+      <Name>1.getting_started__7.4.camera_class</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__1.colors.vcxproj">
+      <Project>{8971F19A-9541-3209-B0CF-695E50F083BD}</Project>
+      <Name>2.lighting__1.colors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__2.1.basic_lighting_diffuse.vcxproj">
+      <Project>{435C8228-A062-332F-9EFF-78841402177E}</Project>
+      <Name>2.lighting__2.1.basic_lighting_diffuse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__2.2.basic_lighting_specular.vcxproj">
+      <Project>{CF2DAD9B-4E3A-3C71-9FBE-028E8CDCDD42}</Project>
+      <Name>2.lighting__2.2.basic_lighting_specular</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__3.1.materials.vcxproj">
+      <Project>{A4DCED3D-C3A0-3D4D-A0D7-2084C6D12808}</Project>
+      <Name>2.lighting__3.1.materials</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__3.2.materials_exercise1.vcxproj">
+      <Project>{F8A8F7BF-F491-39ED-9977-3C961902F3D9}</Project>
+      <Name>2.lighting__3.2.materials_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__4.1.lighting_maps_diffuse_map.vcxproj">
+      <Project>{A340903A-3B33-3BBF-8027-E17222C95AF2}</Project>
+      <Name>2.lighting__4.1.lighting_maps_diffuse_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__4.2.lighting_maps_specular_map.vcxproj">
+      <Project>{C29A5DD5-D60D-370B-BF47-89595F1D5236}</Project>
+      <Name>2.lighting__4.2.lighting_maps_specular_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__4.3.lighting_maps_exercise4.vcxproj">
+      <Project>{77234CC8-539F-3320-B0EE-3C92DAC5670B}</Project>
+      <Name>2.lighting__4.3.lighting_maps_exercise4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__5.1.light_casters_directional.vcxproj">
+      <Project>{69D5B625-E2D6-38FF-828C-ED13E03DF5FF}</Project>
+      <Name>2.lighting__5.1.light_casters_directional</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__5.2.light_casters_point.vcxproj">
+      <Project>{D4CA41C0-141E-3167-9C5A-086D89CE8B4F}</Project>
+      <Name>2.lighting__5.2.light_casters_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__5.3.light_casters_spot.vcxproj">
+      <Project>{89EDA936-67CF-3647-99D3-90CE162D21C5}</Project>
+      <Name>2.lighting__5.3.light_casters_spot</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__5.4.light_casters_spot_soft.vcxproj">
+      <Project>{4C3966F5-3D09-333D-B3E5-49C7FA1DD817}</Project>
+      <Name>2.lighting__5.4.light_casters_spot_soft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\2.lighting__6.multiple_lights.vcxproj">
+      <Project>{D9729513-BB51-324D-A6FE-BBA20393D4A0}</Project>
+      <Name>2.lighting__6.multiple_lights</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\3.model_loading__1.model_loading.vcxproj">
+      <Project>{7005A38B-3B9F-3234-A346-E2CF5D582F1E}</Project>
+      <Name>3.model_loading__1.model_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__1.1.depth_testing.vcxproj">
+      <Project>{A099EABF-6EB3-3A40-99C0-CE0075710AEC}</Project>
+      <Name>4.advanced_opengl__1.1.depth_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__1.2.depth_testing_view.vcxproj">
+      <Project>{FD5CFDBC-EFDD-3728-A6A2-0210D7526C6C}</Project>
+      <Name>4.advanced_opengl__1.2.depth_testing_view</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__10.1.instancing_quads.vcxproj">
+      <Project>{F9F1587F-2AB4-308D-AD6D-0352D6357DA3}</Project>
+      <Name>4.advanced_opengl__10.1.instancing_quads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__10.2.asteroids.vcxproj">
+      <Project>{36925336-D5C9-354D-9D88-9F631F7A2164}</Project>
+      <Name>4.advanced_opengl__10.2.asteroids</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__10.3.asteroids_instanced.vcxproj">
+      <Project>{7EFC0ED4-02A1-3A92-A8B6-127B42AD640C}</Project>
+      <Name>4.advanced_opengl__10.3.asteroids_instanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__11.anti_aliasing_offscreen.vcxproj">
+      <Project>{44AEF667-869E-3879-BA04-2EDC1726A33A}</Project>
+      <Name>4.advanced_opengl__11.anti_aliasing_offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__2.stencil_testing.vcxproj">
+      <Project>{F8ED2267-541F-3D59-BC1B-0D192C51A8B3}</Project>
+      <Name>4.advanced_opengl__2.stencil_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__3.1.blending_discard.vcxproj">
+      <Project>{1C8C5FF6-EE1C-3550-B2F9-4561E49E8975}</Project>
+      <Name>4.advanced_opengl__3.1.blending_discard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__3.2.blending_sort.vcxproj">
+      <Project>{24FC97F1-6378-3447-9BA7-187A8D6E0D42}</Project>
+      <Name>4.advanced_opengl__3.2.blending_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__5.1.framebuffers.vcxproj">
+      <Project>{4F82F62B-7772-3898-9646-6962E2897555}</Project>
+      <Name>4.advanced_opengl__5.1.framebuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__5.2.framebuffers_exercise1.vcxproj">
+      <Project>{BAB8D7C4-95DA-3E8A-9551-B6282030E9AD}</Project>
+      <Name>4.advanced_opengl__5.2.framebuffers_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__6.1.cubemaps_skybox.vcxproj">
+      <Project>{4F4B71C3-D8EC-3BEA-A1DA-9C6A83B9F854}</Project>
+      <Name>4.advanced_opengl__6.1.cubemaps_skybox</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__6.2.cubemaps_environment_mapping.vcxproj">
+      <Project>{E5EA0894-FC3F-3EFC-89A2-2BBC9A851D1E}</Project>
+      <Name>4.advanced_opengl__6.2.cubemaps_environment_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__8.advanced_glsl_ubo.vcxproj">
+      <Project>{6CDDEF03-DB8F-3AC0-A7FC-7AD6F92C01FA}</Project>
+      <Name>4.advanced_opengl__8.advanced_glsl_ubo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__9.1.geometry_shader_houses.vcxproj">
+      <Project>{DC0F6777-5493-3F09-B2E9-EC6BE71F5D92}</Project>
+      <Name>4.advanced_opengl__9.1.geometry_shader_houses</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__9.2.geometry_shader_exploding.vcxproj">
+      <Project>{FE5043DB-9A55-3425-B8C6-E9946E52EDB5}</Project>
+      <Name>4.advanced_opengl__9.2.geometry_shader_exploding</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\4.advanced_opengl__9.3.geometry_shader_normals.vcxproj">
+      <Project>{B3F71F35-6F95-3947-9899-89A43E3C0073}</Project>
+      <Name>4.advanced_opengl__9.3.geometry_shader_normals</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__1.advanced_lighting.vcxproj">
+      <Project>{01E5DD19-5B81-3749-8431-AB16E7611082}</Project>
+      <Name>5.advanced_lighting__1.advanced_lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__2.gamma_correction.vcxproj">
+      <Project>{EC6FC910-EABF-39B2-A137-E1BEDBA1D65B}</Project>
+      <Name>5.advanced_lighting__2.gamma_correction</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__3.1.1.shadow_mapping_depth.vcxproj">
+      <Project>{DB352D32-25CD-3050-A5A7-627CB8CF1A45}</Project>
+      <Name>5.advanced_lighting__3.1.1.shadow_mapping_depth</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__3.1.2.shadow_mapping_base.vcxproj">
+      <Project>{A65D3FEE-7816-3DFF-9234-47FFFE8A4A8F}</Project>
+      <Name>5.advanced_lighting__3.1.2.shadow_mapping_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__3.1.3.shadow_mapping.vcxproj">
+      <Project>{00FD0836-9689-3879-A411-C09D8AF912DF}</Project>
+      <Name>5.advanced_lighting__3.1.3.shadow_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__3.2.1.point_shadows.vcxproj">
+      <Project>{8B4D1643-FA95-3B12-9642-E7F587B88B42}</Project>
+      <Name>5.advanced_lighting__3.2.1.point_shadows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__3.2.2.point_shadows_soft.vcxproj">
+      <Project>{FFBE7C08-CD7F-39C2-A03D-6CA2CBBB3EC1}</Project>
+      <Name>5.advanced_lighting__3.2.2.point_shadows_soft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__4.normal_mapping.vcxproj">
+      <Project>{3FB0D9C6-531D-3C9B-89FD-A52CCB4C1F11}</Project>
+      <Name>5.advanced_lighting__4.normal_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__5.1.parallax_mapping.vcxproj">
+      <Project>{605A1E9E-D1F6-3A29-9F5E-9DD1D74D9EF8}</Project>
+      <Name>5.advanced_lighting__5.1.parallax_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__5.2.steep_parallax_mapping.vcxproj">
+      <Project>{31E712DE-18BD-30A7-A1AF-B6380F1632D1}</Project>
+      <Name>5.advanced_lighting__5.2.steep_parallax_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__5.3.parallax_occlusion_mapping.vcxproj">
+      <Project>{BBB24345-671C-3016-8DA8-E612C9A4A820}</Project>
+      <Name>5.advanced_lighting__5.3.parallax_occlusion_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__6.hdr.vcxproj">
+      <Project>{E9394225-8264-344F-A149-17B4EC2C7063}</Project>
+      <Name>5.advanced_lighting__6.hdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__7.bloom.vcxproj">
+      <Project>{7F668CA4-A6B9-3017-90B5-89F7F46B2DAF}</Project>
+      <Name>5.advanced_lighting__7.bloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__8.1.deferred_shading.vcxproj">
+      <Project>{824795E3-691E-3B29-89EB-09425197BE02}</Project>
+      <Name>5.advanced_lighting__8.1.deferred_shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__8.2.deferred_shading_volumes.vcxproj">
+      <Project>{C48CEE7D-35FD-3CE8-B3FB-67E0CD2EB400}</Project>
+      <Name>5.advanced_lighting__8.2.deferred_shading_volumes</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\5.advanced_lighting__9.ssao.vcxproj">
+      <Project>{7EC39291-4BE1-3C91-B9B4-02ED93367B62}</Project>
+      <Name>5.advanced_lighting__9.ssao</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\6.pbr__1.1.lighting.vcxproj">
+      <Project>{500732C1-B9A2-3357-AE07-1675664E2DC5}</Project>
+      <Name>6.pbr__1.1.lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\6.pbr__1.2.lighting_textured.vcxproj">
+      <Project>{5C8E2EF0-BD04-3964-876B-7E05499A0BF3}</Project>
+      <Name>6.pbr__1.2.lighting_textured</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\6.pbr__2.1.1.ibl_irradiance_conversion.vcxproj">
+      <Project>{DA13AC15-F0BD-36CA-A804-73535C9AF4D6}</Project>
+      <Name>6.pbr__2.1.1.ibl_irradiance_conversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\6.pbr__2.1.2.ibl_irradiance.vcxproj">
+      <Project>{C9FEF9E4-4391-3F55-8D35-DFED130913C1}</Project>
+      <Name>6.pbr__2.1.2.ibl_irradiance</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\6.pbr__2.2.1.ibl_specular.vcxproj">
+      <Project>{83182D62-4FF4-3367-93E7-4B28C98E3469}</Project>
+      <Name>6.pbr__2.2.1.ibl_specular</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\6.pbr__2.2.2.ibl_specular_textured.vcxproj">
+      <Project>{72EC1588-9FED-3FBA-97F3-0CFB725DEBDA}</Project>
+      <Name>6.pbr__2.2.2.ibl_specular_textured</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\7.in_practice__1.debugging.vcxproj">
+      <Project>{ECAF98D4-1F9A-3678-97FC-7114034626B1}</Project>
+      <Name>7.in_practice__1.debugging</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\GLAD.vcxproj">
+      <Project>{215A57DC-6B2C-3ED8-936C-1E02D5A9A590}</Project>
+      <Name>GLAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\demo\LearnOpenGL-1\Gen\STB_IMAGE.vcxproj">
+      <Project>{D3788A06-E40D-37CE-BF91-74980B002CC7}</Project>
+      <Name>STB_IMAGE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

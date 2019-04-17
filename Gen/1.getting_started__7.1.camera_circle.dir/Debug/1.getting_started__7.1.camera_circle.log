@@ -1,0 +1,50 @@
+﻿生成启动时间为 2019/4/17 23:54:40。
+     1>项目“D:\demo\LearnOpenGL-1\Gen\1.getting_started__7.1.camera_circle.vcxproj”在节点 3 上(Build 个目标)。
+     1>PreBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/demo/LearnOpenGL-1/src/1.getting_started/7.1.camera_circle/7.1.camera.fs D:/demo/LearnOpenGL-1/bin/1.getting_started/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/demo/LearnOpenGL-1/src/1.getting_started/7.1.camera_circle/7.1.camera.vs D:/demo/LearnOpenGL-1/bin/1.getting_started/Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\demo\LearnOpenGL-1\Gen\configuration" /I"D:\demo\LearnOpenGL-1\includes" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"1.getting_started__7.1.camera_circle.dir\Debug\\" /Fd"1.getting_started__7.1.camera_circle.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /EHsc";"-std=c++11 "D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp"
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH;”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH-”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHt”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EHd”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH=”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH+”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+     1>cl : 命令行 warning D9002: 忽略未知选项“/EH1”
+         camera_circle.cpp
+     1>D:\demo\LearnOpenGL-1\includes\learnopengl/filesystem.h(23): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(462) : 参见“getenv”的声明
+     1>D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(128): error C2601: “sum0Toi”: 本地函数定义是非法的
+                 D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(22):  此行有一个“{”没有匹配项
+     1>D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(135): error C2601: “sum0To98”: 本地函数定义是非法的
+                 D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(22):  此行有一个“{”没有匹配项
+     1>D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(245): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(246): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(137): error C2059: 语法错误:“<”
+     1>D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(137): error C2143: 语法错误 : 缺少“;”(在“)”的前面)
+     1>D:\demo\LearnOpenGL-1\src\1.getting_started\7.1.camera_circle\camera_circle.cpp(137): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>已完成生成项目“D:\demo\LearnOpenGL-1\Gen\1.getting_started__7.1.camera_circle.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.55

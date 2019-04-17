@@ -209,10 +209,10 @@ int main()
     // shader configuration
     // --------------------
     shader.use();
-    shader.setInt("skybox", 0);
+ //   shader.setInt("skybox", 0);
 
     skyboxShader.use();
-    skyboxShader.setInt("skybox", 0);
+  //  skyboxShader.setInt("skybox", 0);
 
     // render loop
     // -----------
